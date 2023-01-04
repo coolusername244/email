@@ -1,3 +1,20 @@
 textarea {
     min-height: 400px;
 }
+
+.list-group-item {
+    border: solid black 1px;
+    margin-bottom: .5em;
+}
+
+.from {
+    width: 20%;
+}
+
+.subject {
+    width: 60%;
+}
+
+.received {
+    width: 20%;
+}
