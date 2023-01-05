@@ -2,9 +2,21 @@ textarea {
     min-height: 400px;
 }
 
+.email-heading {
+    font-weight: bold;
+}
+
+.mail-list-link, .mail-list-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-group {
+    margin-bottom: .5em;
+}
+
 .list-group-item {
     border: solid black 1px;
-    margin-bottom: .5em;
 }
 
 .from {
@@ -15,6 +27,14 @@ textarea {
     width: 60%;
 }
 
-.received {
+.timestamp {
     width: 20%;
+}
+
+.unread {
+    font-weight: bold;
+}
+
+.read {
+    background-color: lightgrey;
 }
