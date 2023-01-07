@@ -1,40 +1,11 @@
 textarea {
-    min-height: 400px;
-}
-
-.email-heading {
-    font-weight: bold;
-}
-
-.mail-list-link, .mail-list-link:hover {
-    text-decoration: none;
-    color: inherit;
+    height: 400px;
 }
 
 .list-group {
-    margin-bottom: .5em;
+    margin-bottom: 0.5rem;
 }
 
-.list-group-item {
-    border: solid black 1px;
-}
-
-.from {
-    width: 20%;
-}
-
-.subject {
-    width: 60%;
-}
-
-.timestamp {
-    width: 20%;
-}
-
-.unread {
+.bold {
     font-weight: bold;
-}
-
-.read {
-    background-color: lightgrey;
 }
