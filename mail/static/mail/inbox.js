@@ -57,7 +57,6 @@ function load_mailbox(mailbox) {
       if (email.read === true) {
         listGroupItem.classList.add('list-group-item-dark');
       } else {
-        console.log('added')
         col3First.classList.add('bold');
         col6.classList.add('bold');
       }
